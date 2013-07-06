@@ -1,0 +1,24 @@
+{
+    "name": "scragg0x/votesmart-php",
+    "type": "library",
+    "description": "votesmart.org API wrapper in php",
+    "keywords": ["votesmart"],
+    "homepage": "https://github.com/scragg0x/votesmart-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Scragg",
+            "email": "scragg@gmail.com",
+            "homepage": "http://fleckz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "guzzle/guzzle": "3.0.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "VoteSmart": "src/"
+        }
+    }
+}
